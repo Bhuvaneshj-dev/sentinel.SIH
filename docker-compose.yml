@@ -1,0 +1,14 @@
+services:
+  sentinel:
+    build: .
+    ports:
+      - "127.0.0.1:8000:8000"
+    env_file: .env
+    environment:
+      SENTINEL_DB: /data/sentinel.db
+      SENTINEL_ALLOWED_ORIGINS: http://localhost:8000,http://127.0.0.1:8000
+    volumes:
+      - sentinel-data:/data
+    restart: unless-stopped
+volumes:
+  sentinel-data:

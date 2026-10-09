@@ -1,0 +1,15 @@
+{
+  "kind": "synthetic-compute-benchmark",
+  "model": "third-party Wav2Vec2 baseline",
+  "created_utc": "2026-10-09T04:45:50Z",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "cpu": "x86_64",
+  "threads": 2,
+  "window_ms": 2000,
+  "warmup_runs": 3,
+  "measured_runs": 20,
+  "median_ms": 248.76,
+  "p95_ms": 304.18,
+  "accuracy": null,
+  "note": "Synthetic tone, not speech. Measures preprocessing + model execution only, not detection accuracy or end-to-end latency."
+}

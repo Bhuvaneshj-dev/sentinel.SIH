@@ -1,0 +1,3 @@
+path,label,condition,speaker_id
+samples/real-speaker-a.wav,0,clean,speaker-a
+samples/fake-speaker-b.wav,1,clean,speaker-b

@@ -1,0 +1,4 @@
+# Install CPU PyTorch separately first; see ml/README.md.
+transformers==4.51.3
+safetensors==0.5.3
+onnxruntime==1.21.1
